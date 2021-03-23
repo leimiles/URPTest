@@ -14,7 +14,8 @@ public class MoveAlongCurveExample : MonoBehaviour {
 
 	void Start () {
         points = bezier.GetPathInWorldCoordinates(pathResolution);
-        n = Random.Range(0, points.Length);
+        //n = Random.Range(0, points.Length);
+        n = 0;
     }
 	
 
