@@ -34,7 +34,7 @@ namespace BezierMasterNS
         };
 
 
-        [MenuItem("Tools/Create Bezier Master")]
+        [MenuItem("ArtTools/Create Bezier Master")]
         public static void CreateBezierMaster()
         {
             var master = new GameObject("Bezier Master");
